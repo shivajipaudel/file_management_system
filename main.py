@@ -33,6 +33,7 @@ for ex in list_extension:
     for fl in os.listdir():
         if ex in fl:
             shutil.copy(fl,path+"\\"+ex)
+            //this is done by pradip
     
     
     
